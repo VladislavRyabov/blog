@@ -14,7 +14,6 @@ gem 'rubocop', '~> 0.51.0', require: false
 gem 'jquery-rails'
 gem 'devise'
 # Use mysql as the database for Active Record
-gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -54,6 +53,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 end
 
 group :production do
